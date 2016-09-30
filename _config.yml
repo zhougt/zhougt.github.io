@@ -128,7 +128,7 @@ events:
     date: "2010.09 - 2010.11"
     description: Visotor @ <a target="_blank" href="http://www.zju.edu.cn/">ZJU</a>
   - image: "/img/timeline/sdu.png"
-    date: "2007.09 - 2010.07"
+    date: "2007.09 - 2010.06"
     description: M.Sc. @ <a target="_blank" href="http://www.sdu.edu.cn/">SDU</a>
   - image: "/img/timeline/monash.png"
     date: "2009.09 - 2010.02"
@@ -157,7 +157,7 @@ email: "zhouguangtong [at] gmail [dot] com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Guang-Tong is a machine learning enthusiast. He lives in the beatiful Vancouver, Canada. He likes to torture computers to see, to learn, and to understand."
+author_blurb: "Guang-Tong is a machine learning enthusiast. He lives in the beatiful Vancouver, Canada. He likes to torture computers to learn and understand."
 author_blurb_image: "/img/author.png"
 
 ##################
@@ -184,7 +184,7 @@ social:
 # GPG on Keybase #
 ##################
 
-keybase-username: johnsmith
+keybase-username: zhougt
 keybase-in-social: False
 keybase-in-footer: False
 
