@@ -15,8 +15,13 @@
   $('#bio-toggle').click(function(){
     $('#bio-content').slideToggle('slow');
     var toggleStatus = $('#bio-toggle').text();
-    $('#bio-toggle').text(
-        toggleStatus == "[Biography: More]" ? "[Biography: Less]" : "[Biography: More]");
+    if toggleStatus == "[Biography: More]" {
+      $('#bio-toggle').html("[<a>Biography: Less</a>]");
+    } else {
+      $('#bio-toggle').html("[<a>Biography: More</a>]");
+    }
+    /*$('#bio-toggle').text(
+        toggleStatus == "[Biography: More]" ? "[Biography: Less]" : "[Biography: More]");*/
   });
 </script>
 
