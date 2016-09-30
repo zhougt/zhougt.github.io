@@ -10,10 +10,12 @@
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
+<!-- Biography Toggle -->
 <script type="text/javascript">
   $('#bio-expander').click(function(){
     $('#bio').slideToggle('slow');
-    /*$('#bio').css("display", $('#bio').css("display") === 'none' ? '' : 'none');*/
+    $('#bio-expander').text(
+        text == "Biography: More" ? "Biography: Less" : "Biography: More");
   });
 </script>
 
