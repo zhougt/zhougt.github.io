@@ -98,6 +98,24 @@ td.paper-image img {
     color: #8a6d3b;
 }
 
+div.wrap {
+    
+}
+
+div.paper-image {
+    float: left;
+}
+
+div.paper-image img {
+    width: 130px;
+    height: 100px;
+    max-width: None;
+}
+
+div.paper-text {
+    float: left;
+}
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($font-color, 0.3);
