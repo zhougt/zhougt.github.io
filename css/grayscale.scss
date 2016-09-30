@@ -83,7 +83,7 @@ table {
     font-size: 20px;
 }
 
-td { 
+td {
     padding: 10px;
 }
 
@@ -103,7 +103,8 @@ div.wrap {
 }
 
 div.paper-image {
-    float: left;
+    padding: 10px;
+    display: inline-block;
 }
 
 div.paper-image img {
@@ -113,7 +114,10 @@ div.paper-image img {
 }
 
 div.paper-text {
-    float: left;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
 }
 
 .navbar-custom {
