@@ -120,7 +120,10 @@ events:
     description: Ph.D. @ <a target="_blank" href="https://www.sfu.ca/">SFU</a>
   - image: "/img/timeline/sap.png"
     date: "2014.09 - 2015.05"
-    description: Intern @ <a target="_blank" href="https://www.disneyresearch.com/">SAP</a>
+    description: Intern @ <a target="_blank" href="http://go.sap.com/">SAP</a>
+  - image: "/img/timeline/disney.png"
+    date: "2013.09 - 2013.12"
+    description: Intern @ <a target="_blank" href="https://www.disneyresearch.com/">Disney Research</a>
   - image: "/img/timeline/zju.png"
     date: "2010.09 - 2010.11"
     description: Visotor @ <a target="_blank" href="http://www.zju.edu.cn/">ZJU</a>
