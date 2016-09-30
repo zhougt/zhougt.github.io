@@ -1,0 +1,56 @@
+<html>
+<head>
+<link rel="stylesheet" href="../../page_style.css">
+<title>Mass Estimation</title>
+</head>
+
+<body>
+<hr>
+<h4>The Mass Estimation Package</h4>
+<p>
+<p>Description: This package includes the MATLAB code for Mass Estimation.
+<p>References: Kai Ming Ting, Guang-Tong Zhou, Fei Tony Liu and Swee Chuan Tan, Mass Estimation and Its Applications. In: Proceedings of the 16th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 989-998, Washington, DC, 2010. [<a href="../mass_kdd10.pdf">pdf</a>]
+<p>Requirement: MATLAB (>=7.4 R2007a), <a href="http://www.csie.ntu.edu.tw/~cjlin/libsvm" target="_blank">libsvm</a>.
+<p>Attention 1: This package is free for academic usage. You can run it at your own risk. For other purposes, please contact <a target="_blank" href="http://personal.gscit.monash.edu.au/~kmting/">Dr. Kai Ming Ting</a>.
+<p>Attention 2: This package was developed by <a href="../../index.html">Guang-Tong Zhou</a>. Please feel free to contact him for any problem concerning the code.
+<p>This package is also available at <a href="https://sourceforge.net/projects/mass-estimation/" target="_blank">https://sourceforge.net/projects/mass-estimation/</a>.
+<hr>
+<h4>A Step-by-Step Instruction</h4>
+<ol>
+  <li> Installation
+    <ul>
+      <li>Download the [<a href="mass.zip">mass estimation package</a>] (261Kb) and unzip it to a separate directory.</li>
+      <li>Run 'Code/Run_Example_all.m' to obtain simulation results.</li>
+      <li>Build libsvm with 'Library/libsvm/make.m' (for regression tasks only).</li>
+      (Notice: we used windows plateform in our experiments. To instal libsvm on other plateforms, please see <a target="_blank" href="http://www.csie.ntu.edu.tw/~cjlin/libsvm">this page</a>.)
+    </ul>
+  </li>
+  <br>
+  <li>Content-based image retrieval
+    <ul>
+      <li>Obtain the retrieval data sets and preprocess the data following this instruction [<a href="datasets.pdf">pdf</a>].</li>
+      <li>Place the MATLAB data files in directory 'Data/Retrieval/'.</li>
+      <li>Run 'Code/Run_Retrieval_all.m' to receive the retrieval results, which will be saved in directory 'Results/Retrieval/'.</li>
+    </ul>
+  </li>
+  <br>
+  <li>Regression
+    <ul>
+      <li>Obtain the regression data sets and preprocess the data following this instruction [<a href="datasets.pdf">pdf</a>].</li>
+      <li>Place the MATLAB data files in directory 'Data/Regression/'.</li>
+      <li>Run 'Code/Run_Regression_all.m' to get the regression results, which will be saved in directory 'Results/Regression/'.</li>
+    </ul>
+  </li>
+  <br>
+  <li>Anomaly detection
+    <ul>
+      <li>Obtain the anomaly detection data sets and preprocess the data following this instruction [<a href="datasets.pdf">pdf</a>].</li>
+      <li>Place the MATLAB data files in directory 'Data/Anomaly/'.</li>
+      <li>Run 'Code/Run_Anomaly_all.m' to see the anomaly detection results, which will be saved in directory 'Results/Anomaly/'.</li>
+    </ul>
+  </li>
+</ol>
+<p>More details are described in the <a href="readme.txt">readme</a> file. Please excuse us for not providing the data sets due to the copyright issues.
+<hr>
+</body>
+</html>
