@@ -11,12 +11,13 @@ title: About
 
 <p>I am interested in <span class="text-highlight">Machine Learning</span> and <span class="text-highlight">Computer Vision</span> research, and the focus is to develop machine learning algorithms and semantic representations for high-level understanding of image, video and network data.</p>
 
-<p class="expand-link">[<a>Read More</a>]</p>
+<p id="bio-expander">[<a>Detailed Biography</a>]</p>
 
-<p class="expand-content">This is the content that was hidden before, but now is... Well, visible!"</p>
+<p id="bio">This is the content that was hidden before, but now is... Well, visible!"</p>
 
 <script type="text/javascript">
-  $('.expand-link').click(function(){
-    $('.expand-content').slideToggle('slow');
+  $('#bio-expander').click(function(){
+    $('#bio').slideToggle('slow');
+    $('#bio').css("display", $('#bio').css("display") === 'none' ? '' : 'none');
   });
 </script>
