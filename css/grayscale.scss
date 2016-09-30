@@ -88,36 +88,18 @@ td {
 }
 
 td.paper-image img {
-    width: 130px;
+    /*width: 130px;
     height: 100px;
-    max-width: None;
+    max-width: None;*/
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    min-width: 16px;
 }
 
 .text-highlight {
     font-weight: bold;
     color: #8a6d3b;
-}
-
-div.wrap {
-    
-}
-
-div.paper-image {
-    padding: 10px;
-    display: inline-block;
-}
-
-div.paper-image img {
-    width: 130px;
-    height: 100px;
-    max-width: None;
-}
-
-div.paper-text {
-    text-align: left;
-    font-size: 20px;
-    padding: 10px;
-    display: inline-block;
 }
 
 .navbar-custom {
