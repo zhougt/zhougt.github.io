@@ -14,8 +14,9 @@
 <script type="text/javascript">
   $('#bio-toggle').click(function(){
     $('#bio-content').slideToggle('slow');
+    var toggleStatus = $('#bio-toggle').text();
     $('#bio-toggle').text(
-        text == "[Biography: More]" ? "[Biography: Less]" : "[Biography: More]");
+        toggleStatus == "[Biography: More]" ? "[Biography: Less]" : "[Biography: More]");
   });
 </script>
 
