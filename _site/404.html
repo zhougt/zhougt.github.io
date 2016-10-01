@@ -221,6 +221,16 @@
 <!-- Plugin JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
+<!-- Biography Toggle -->
+<script type="text/javascript">
+  $('#bio-toggle').click(function(){
+    $('#bio-content').slideToggle('slow');
+    var toggleStatus = $('#bio-toggle').text();
+    $('#bio-toggle').text(
+      toggleStatus == "Biography" ? "Hide Biography" : "Biography");
+  });
+</script>
+
 <!-- Custom Theme JavaScript -->
 <!--* Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
 * Code licensed under the Apache License v2.0.
