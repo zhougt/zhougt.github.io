@@ -15,10 +15,10 @@
   $('#bio-toggle').click(function(){
     $('#bio-content').slideToggle('slow');
     var toggleStatus = $('#bio-toggle').text();
-    if (toggleStatus == "[Biography: More]") {
-      $('#bio-toggle').html("[<a>Biography: Less</a>]");
+    if (toggleStatus == "[Show Biography]") {
+      $('#bio-toggle').html("[<a>Hide Biography</a>]");
     } else {
-      $('#bio-toggle').html("[<a>Biography: More</a>]");
+      $('#bio-toggle').html("[<a>Show Biography</a>]");
     }
     /*$('#bio-toggle').text(
         toggleStatus == "[Biography: More]" ? "[Biography: Less]" : "[Biography: More]");*/
