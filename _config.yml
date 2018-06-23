@@ -114,7 +114,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/facebook.png"
     date: "2018.06 - present"
-    description: Research Scientist @ <a target="_blank" href="https://www.facebook.com/">Facebook</a>
+    description: Research Scientist @ <a target="_blank" href="https://www.facebook.com/fbseattle/">Facebook</a>
   - image: "/img/timeline/oracle.png"
     date: "2015.12 - 2018.04"
     description: Researcher @ <a target="_blank" href="https://labs.oracle.com/">Oracle Labs</a>
