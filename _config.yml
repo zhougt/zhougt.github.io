@@ -129,13 +129,13 @@ events:
     description: Intern @ <a target="_blank" href="https://www.disneyresearch.com/">Disney Research</a>
   - image: "/img/timeline/zju.png"
     date: "2010.09 - 2010.11"
-    description: Visotor @ <a target="_blank" href="http://www.zju.edu.cn/">ZJU</a>
+    description: Visitor @ <a target="_blank" href="http://www.zju.edu.cn/">ZJU</a>
   - image: "/img/timeline/sdu.png"
     date: "2007.09 - 2010.06"
     description: M.Sc. @ <a target="_blank" href="http://www.sdu.edu.cn/">SDU</a>
   - image: "/img/timeline/monash.png"
     date: "2009.09 - 2010.02"
-    description: Visotor @ <a target="_blank" href="http://www.monash.edu/">Monash</a>
+    description: Visitor @ <a target="_blank" href="http://www.monash.edu/">Monash</a>
   - image: "/img/timeline/nju.png"
     date: "2008.09 - 2009.01"
     description: Visitor @ <a target="_blank" href="http://www.nju.edu.cn/">NJU</a>
