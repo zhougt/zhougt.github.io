@@ -56,7 +56,7 @@ start-delay: 200
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text: "ML enthusiast and practitioner."
-  - text: "Torturing computers to perceive and learn."
+  - text: "Torturing computers to learn."
 
 
 me-img: "/img/zhougt.png"
