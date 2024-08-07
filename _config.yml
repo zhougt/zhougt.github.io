@@ -55,7 +55,7 @@ type-speed: 10
 start-delay: 200
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
-  - text: "ML enthusiast & practitioner."
+  - text: "ML enthusiast and practitioner."
   - text: "Torturing computers to learn."
 
 
