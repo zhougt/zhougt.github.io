@@ -53,10 +53,10 @@ loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
 type-speed: 10
 start-delay: 200
-delete-delay: 5000
+delete-delay: 1000
 lines: # You can add HTML Tags in the Text
-  - text: "Machine learning enthusiast."
-  - text: "Torturing computers to learn and understand."
+  - text: "ML enthusiast & practitioner."
+  - text: "Torturing computers to learn."
 
 
 me-img: "/img/zhougt.png"
@@ -170,8 +170,6 @@ author_blurb_image: "/img/author.png"
 social:
   - title: "facebook"
     url: "https://www.facebook.com/zhouguangtong"
-  - title: "twitter"
-    url: "https://twitter.com/NashZhou"
   - title: "github"
     url: "https://github.com/zhougt"
   - title: "linkedin"
