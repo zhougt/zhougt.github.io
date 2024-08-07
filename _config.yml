@@ -56,7 +56,7 @@ start-delay: 200
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text: "ML enthusiast and practitioner."
-  - text: "Torturing computers to learn."
+  - text: "Torturing computers to perceive and learn."
 
 
 me-img: "/img/zhougt.png"
@@ -160,7 +160,7 @@ email: "zhouguangtong [at] gmail [dot] com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Guang-Tong is a machine learning enthusiast. He lives in the beatiful Vancouver, Canada. He likes to torture computers to learn and understand."
+author_blurb: "Guang-Tong is a machine learning enthusiast and practitioner. He likes to torture computers to perceive and learn."
 author_blurb_image: "/img/author.png"
 
 ##################
